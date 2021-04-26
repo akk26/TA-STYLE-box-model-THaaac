@@ -1,0 +1,151 @@
+CSS reset
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+html,body {
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+  border:0;
+}
+input{
+	border:1px solid #b0b0b0;
+	padding:3px 5px 4px;
+	color:#979797;
+	width:190px;
+}
+address,caption,cite,code,dfn,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+  list-style:none;
+}
+caption,th {
+  text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+  content:'';
+}
+abbr,acronym { border:0;
+}
+ 
+/* main style sheet of page */
+body{
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+header{
+	font-size: 60px;
+	font-style:oblique;	
+	text-align: center;
+}
+.horizontal{
+	border: 1px dashed grey;
+	border-top: none;
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.heading-one{
+	text-align: center;
+	font-size: 30px;
+	margin: 30px 0px;
+}
+.box-one{
+	width: 200px;
+	height: 200px;
+	background-color: rgb(217,245,212);
+	margin: 0 auto;
+	border: 4px solid black;
+	outline: 20px solid rgb(237,127,128);
+	box-shadow: inset 0 0 0 10px rgb(173,216,230);
+}
+.circle-container{
+	text-align: center;
+	margin: 50px 0;
+}
+.content{
+	display: inline-block;
+	margin-left: 10px;
+}
+.small-circle {
+	width:12px;
+	height: 12px;
+	border-radius: 50%;
+	background-color: rgb(217,245,212);
+	display: inline-block;
+	vertical-align: middle;
+}
+.padding-circle{
+	background-color: rgb(173,216,230)
+}
+.border-circle{
+	background-color: black
+}
+.margin-circle{
+	background-color: rgb(237,127,128)
+}
+.heading-two{
+	text-align: center;
+	font-size: 30px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+.no-border{
+	text-align: center;
+	font-size: 25px;
+}
+.three-box{
+	width: 180px;
+	height: 100px;
+	background-color:rgb(204,204,204);
+	display: inline-block;
+	margin: 10px;
+}
+.three-box{
+	width: 180px;
+	height: 100px;
+	background-color:rgb(204,204,204);
+	display: inline-block;
+	margin: 10px;
+}
+.three-box{
+	width: 180px;
+	height: 100px;
+	background-color:rgb(204,204,204);
+	display: inline-block;
+	margin: 10px;
+}
+.without-border{
+	width: 600px;
+	border:1px solid rgb(204,204,204);
+	margin: 0 auto;
+	margin-top: 20px;
+	box-sizing: content-box;
+	font-size: 0px;
+}
+.border{
+	margin: 30px;
+}
+.one-border{
+	border: 1px solid black;
+	border-width: 1px;
+}
+.inline-border{
+	border: 1px solid black;
+	box-sizing: border-box;
+	border-width: 1px;
+}
