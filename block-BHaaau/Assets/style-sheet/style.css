@@ -134,7 +134,6 @@ header{
 	border:1px solid rgb(204,204,204);
 	margin: 0 auto;
 	margin-top: 20px;
-	box-sizing: content-box;
 	font-size: 0px;
 }
 .border{
@@ -148,4 +147,4 @@ header{
 	border: 1px solid black;
 	box-sizing: border-box;
 	border-width: 1px;
-}
+} 
