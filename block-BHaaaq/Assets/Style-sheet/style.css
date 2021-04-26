@@ -1,0 +1,95 @@
+CSS reset
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+html,body {
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+  border:0;
+}
+input{
+	border:1px solid #b0b0b0;
+	padding:3px 5px 4px;
+	color:#979797;
+	width:190px;
+}
+address,caption,cite,code,dfn,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+  list-style:none;
+}
+caption,th {
+  text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+  content:'';
+}
+abbr,acronym { border:0;
+}
+ 
+
+/* stylesheet of excerise two  */
+
+
+h1{
+	font-size: 30px;
+	font-weight: 600;
+	margin: 30px;
+}
+.box{
+	width: 150px;
+	height: 110px;
+	background-color: rgb(178,46,37);
+	display: inline-block;
+	margin:30px;
+}
+.border-first{
+	border: 4px solid black;
+}
+.border-second{
+	border: 6px double black;
+}
+.border-third{
+	border: 4px dashed black;
+	margin-left: 30px;
+}
+.border-fourth{
+	border: 4px dotted black;
+}
+.border-non{
+	margin-left: 30px;
+}
+p{
+	width:  350px;
+	background-color: rgb(233,63,51);
+	color: white;
+	margin:30px;
+	padding: 20px;
+	font-size: 18px;
+	border-top: 20px solid rgb(63,122,248);
+	border-bottom: 20px solid rgb(249,232,68);
+	border-left: 20px solid rgb(64,129,26);
+	border-right: 20px solid rgb(128,128,128);	
+}
+.big-box{
+	background-color: indigo;
+	display: inline-block;
+	padding: 20px 10px;
+	margin: 20px;
+}
+
+
+
